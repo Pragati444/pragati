@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobbies Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1><u>My Hobbies Gallery</u></h1>
+        <p>A collection of my favorite activities and interests</p>
+    </header>
+
+    <main>
+        <div class="intro">
+            <p>Everyone has unique hobbies that make life more enjoyable. Below you'll find some of my favorite pastimes, each with its own special appeal. Click on any hobby to learn more about how I engage with it.</p>
+        </div>
+
+        <div class="gallery">
+            <!-- Photography Card -->
+            <div class="hobby-card">
+                <div class="card-image">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/2f9a3c8e-a28d-4a15-a854-c533b3b70bd4.png" alt="Professional DSLR camera on a tripod overlooking a mountain landscape at golden hour" />
+                </div>
+                <div class="card-content">
+                    <h3>Photography</h3>
+                    <span class="badge">Creative</span>
+                    <span class="badge">Outdoors</span>
+                    <p>Capturing moments and telling stories through the lens. From landscapes to street photography, I love exploring different perspectives.</p>
+                    <button class="toggle-details" onclick="toggleDetails('photo-details')">Learn More</button>
+                    <div class="more-details" id="photo-details">
+                        <p>My photography journey began 5 years ago when I received my first DSLR. I specialize in landscape and portrait photography, using both digital and film cameras. I particularly enjoy night photography and long exposure techniques.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gaming Card -->
+            <div class="hobby-card">
+                <div class="card-image">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/710a37e7-b21e-4ae1-8c43-1c60ee8a40a2.png" alt="Premium gaming setup with high-end PC, mechanical keyboard, and multiple monitors in a dark room with RGB lighting" />
+                </div>
+                <div class="card-content">
+                    <h3>Gaming</h3>
+                    <span class="badge">Strategy</span>
+                    <span class="badge">Tech</span>
+                    <p>Immersive worlds, challenging puzzles, and competitive gameplay. A great way to unwind and connect with friends.</p>
+                    <button class="toggle-details" onclick="toggleDetails('gaming-details')">Learn More</button>
+                    <div class="more-details" id="gaming-details">
+                        <p>I enjoy a mix of competitive multiplayer games and story-driven single player experiences. Currently into RTS games and RPGs with rich lore. I also occasionally stream gameplay when I have time.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hiking Card -->
+            <div class="hobby-card">
+                <div class="card-image">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/15eaa3be-7da9-4025-997b-77e4e9eb81e0.png" alt="Person hiking on a scenic mountain trail with backpack and trekking poles, overlooking a valley during autumn season" />
+                </div>
+                <div class="card-content">
+                    <h3>Hiking</h3>
+                    <span class="badge">Adventure</span>
+                    <span class="badge">Fitness</span>
+                    <p>Exploring nature's beauty one trail at a time. Fresh air, exercise, and breathtaking views make for perfect weekends.</p>
+                    <button class="toggle-details" onclick="toggleDetails('hiking-details')">Learn More</button>
+                    <div class="more-details" id="hiking-details">
+                        <p>I've completed over 200 miles of trails in the past 3 years, including several multi-day backpacking trips. My favorite hikes include alpine lake destinations and desert canyon treks. Always carrying my camera to document the journey!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Reading Card -->
+            <div class="hobby-card">
+                <div class="card-image">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/f609855c-d36c-4b64-ba97-720289b36e4c.png" alt="Cozy reading nook by a window with antique bookshelf, vintage lamp, and stack of leather-bound books on a wooden side table" />
+                </div>
+                <div class="card-content">
+                    <h3>Reading</h3>
+                    <span class="badge">Knowledge</span>
+                    <span class="badge">Relaxation</span>
+                    <p>Getting lost in different worlds and expanding my perspectives. Mostly fiction, with some non-fiction mixed in.</p>
+                    <button class="toggle-details" onclick="toggleDetails('reading-details')">Learn More</button>
+                    <div class="more-details" id="reading-details">
+                        <p>I typically read 30-40 books per year across various genres. My favorite authors include Haruki Murakami and Octavia Butler. Recently started a book club with friends focusing on science fiction and fantasy works from diverse authors.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Woodworking Card -->
+            <div class="hobby-card">
+                <div class="card-image">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/5507915f-d9cd-4bce-8ccf-d53cfcc79102.png" alt="Detailed woodworking project in progress showing hand tools, wood shavings, and half-finished walnut table with dovetail joints" />
+                </div>
+                <div class="card-content">
+                    <h3>Woodworking</h3>
+                    <span class="badge">Handcraft</span>
+                    <span class="badge">Creative</span>
+                    <p>Creating functional art with my hands. There's something magical about turning raw lumber into beautiful objects.</p>
+                    <button class="toggle-details" onclick="toggleDetails('woodworking-details')">Learn More</button>
+                    <div class="more-details" id="woodworking-details">
+                        <p>I practice both hand tool and power tool woodworking, with a focus on furniture and decorative items. Recently built a custom walnut desk with hand-cut dovetail joints. My next project is a small bookcase with Japanese joinery techniques.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2023 My Hobbies Gallery | All images are placeholders for demonstration</p>
+    </footer>
+
+    <script>
+        function toggleDetails(id) {
+            const details = document.getElementById(id);
+            const button = details.previousElementSibling;
+            
+            if (details.style.maxHeight) {
+                details.style.maxHeight = null;
+                button.textContent = 'Learn More';
+            } else {
+                details.style.maxHeight = details.scrollHeight + 'px';
+                button.textContent = 'Show Less';
+            }
+        }
+    </script>
+</body>
+</html>
+
